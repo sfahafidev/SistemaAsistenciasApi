@@ -15,8 +15,8 @@ public class Turno {
     private String nombre;
 
     // Referencia minimo y maximo de horas por turno
-    private Double min;
-    private Double max;
+    private Double minimo;
+    private Double maximo;
 
 
     public Integer getId() {
@@ -43,19 +43,19 @@ public class Turno {
         this.nombre = nombre;
     }
 
-    public Double getMin() {
-        return min;
+    public Double getMinimo() {
+        return minimo;
     }
 
-    public void setMin(Double min) {
-        this.min = min;
+    public void setMinimo(Double minimo) {
+        this.minimo = minimo;
     }
 
-    public Double getMax() {
-        return max;
+    public Double getMaximo() {
+        return maximo;
     }
 
-    public void setMax(Double max) {
-        this.max = max;
+    public void setMaximo(Double maximo) {
+        this.maximo = maximo;
     }
 }
